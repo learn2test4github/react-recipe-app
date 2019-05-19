@@ -29,6 +29,7 @@ export default class Search extends Component {
                   <button
                     type="submit"
                     className="input-group-text bg-primary text-white"
+                    onClick={handleSubmit}
                   >
                     <i className="fas fa-search" />
                   </button>
